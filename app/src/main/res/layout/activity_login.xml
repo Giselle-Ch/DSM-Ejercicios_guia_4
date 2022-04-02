@@ -38,14 +38,12 @@
         android:layout_height="wrap_content"
         android:text="Register" />
 
-    <Button
-        android:id="@+id/loginFacebook"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3F51B5"
-        android:drawableLeft="@mipmap/facebooklogin"
-        android:drawableTint="#FFFFFF"
-        android:text="Facebook" />
+        android:textAlignment="center"
+        android:layout_marginVertical="20dp"
+        android:text="OR"/>
 
     <Button
         android:id="@+id/loginGoogle"
